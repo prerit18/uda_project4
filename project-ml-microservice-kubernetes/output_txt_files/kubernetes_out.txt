@@ -1,1 +1,16 @@
 <paste log output from Kubernetes-mediated prediction, here>
+voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./run_kubernetes.sh
+Hello
+NAME     READY   STATUS    RESTARTS   AGE
+mlpred   1/1     Running   0          93s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
